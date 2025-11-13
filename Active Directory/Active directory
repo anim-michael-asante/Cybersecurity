@@ -1,0 +1,61 @@
+# Active Directory Project
+
+This project demonstrates the setup, configuration, and management of **Active Directory (AD)** in a Windows Server environment. It covers essential concepts of directory services, domain management, user and group administration, and network security integration.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Objectives](#objectives)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup](#setup)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+
+Active Directory is a directory service developed by Microsoft for Windows domain networks. This project provides hands-on experience in managing users, groups, and policies in a centralized manner. It also includes practical exercises for configuring domains, organizational units (OUs), and access permissions.
+
+## Objectives
+
+- Understand the structure and components of Active Directory.
+- Configure a domain controller on Windows Server.
+- Create and manage users, groups, and OUs.
+- Implement Group Policy Objects (GPOs) for security and resource management.
+- Integrate AD with network services like DNS and DHCP.
+
+## Features
+
+- **Domain Controller Setup** – Installing and promoting a Windows Server as a domain controller.
+- **User and Group Management** – Creating users, groups, and managing permissions.
+- **Organizational Units (OUs)** – Structuring the directory for efficient management.
+- **Group Policy Objects (GPOs)** – Automating security settings and configurations.
+- **DNS Integration** – Ensuring proper domain name resolution in the network.
+
+## Technologies Used
+
+- **Operating System:** Windows Server 2019/2022
+- **Tools:** Active Directory Users and Computers (ADUC), Group Policy Management Console (GPMC), PowerShell
+- **Protocols:** LDAP, Kerberos, DNS
+
+## Setup
+
+1. Install Windows Server and configure a static IP address.
+2. Install the Active Directory Domain Services (AD DS) role.
+3. Promote the server to a Domain Controller.
+4. Use ADUC or PowerShell to create users, groups, and OUs.
+5. Apply GPOs for managing security and access control.
+
+> Detailed instructions and screenshots for each step are available in the project folder.
+
+## Contributing
+
+Contributions are welcome! You can suggest improvements, share scripts, or add additional AD scenarios. Please submit a pull request or open an issue for discussion.
+
+## License
+
+This project is for educational purposes and does not contain any proprietary code.
+
+---
+
+
